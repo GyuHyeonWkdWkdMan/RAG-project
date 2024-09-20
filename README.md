@@ -6,6 +6,6 @@ LLM, 임베딩 모델은 포함되어 있지 않기 때문에 코드를 잘 보�
 
 ## 디렉토리 설명
 
-** RAG-SaveAndLoad :** persist.py로 원하는 데이터를 벡터DB에 저장, 벡터DB 정보를 다시 저장합니다. 그리고 ollamaragfromdb.py 로 벡터DB의 정보를 받아와 챗봇을 실행합니다.(현재 PDF만 구현, 웹이나 다른 유형의 파일 로드하는 것도 어렵지 않음)
+RAG-SaveAndLoad : persist.py로 원하는 데이터를 벡터DB에 저장, 벡터DB 정보를 다시 저장합니다. 그리고 ollamaragfromdb.py 로 벡터DB의 정보를 받아와 챗봇을 실행합니다.(현재 PDF만 구현, 웹이나 다른 유형의 파일 로드하는 것도 어렵지 않음)
 
 RAG-Memory : 임베딩 정보를 메모리에 임시 저장하여 RAG를 실행합니다. 이 경우, 벡터DB의 내용물은 휘발성입니다.
